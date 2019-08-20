@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">DanielAguileraAndroid2019</string>
     <string name="title">Android 2019</string>
+    <string name="score">Your score: %s</string>
+    <string name="time_left">Time left %s</string>
+    <string name="tap_me">TAP ME</string>
+    <string name="hello_world">Hello World</string>
+    <string name="timefighter">TIMEFIGHTER</string>
+    <string name="name_repo">DanielAguileraAndroid2019 \n @eagleera</string>
+    <string name="end_game">Game Over %s</string>
 </resources>
