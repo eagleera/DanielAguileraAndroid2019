@@ -25,10 +25,20 @@
             app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintHorizontal_bias="0.498"
             android:width="160dp" android:backgroundTint="#00BCD4"/>
     <Button
+            android:text="@string/tempConversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTempConversion" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            android:width="160dp"
+            android:backgroundTint="#8BC34A" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnTimeFighter2"/>
+    <Button
             android:text="@string/timefighter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnTimeFighter" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/btnTimeFighter2" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.498" android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/btnHelloWorld" android:width="160dp"

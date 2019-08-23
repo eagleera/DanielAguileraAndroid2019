@@ -8,4 +8,12 @@
     <string name="timefighter">TIMEFIGHTER</string>
     <string name="name_repo">DanielAguileraAndroid2019 \n @eagleera</string>
     <string name="end_game">Game Over %s</string>
+    <string name="tempConversion">Convert temperature</string>
+    <string name="convert_temp">Convert</string>
+    <string name="celsius">Celsius</string>
+    <string name="celsius_placeholder">10</string>
+    <string name="celsius_lbl">Celsius</string>
+    <string name="convert_btn_celsius">Convert to Farenheit</string>
+    <string name="farenheit_lbl">Farenheit</string>
+    <string name="conver_btn_farenheit">Convert to Celsius</string>
 </resources>
