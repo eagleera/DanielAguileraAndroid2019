@@ -20,5 +20,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TemperatureConversion::class.java)
             startActivity(intent)
         }
+        btnDialog.setOnClickListener {
+            val intent = Intent(this, Dialog::class.java)
+            startActivity(intent)
+        }
     }
 }

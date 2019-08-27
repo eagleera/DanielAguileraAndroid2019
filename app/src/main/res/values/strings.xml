@@ -16,4 +16,8 @@
     <string name="convert_btn_celsius">Convert to Farenheit</string>
     <string name="farenheit_lbl">Farenheit</string>
     <string name="conver_btn_farenheit">Convert to Celsius</string>
+    <string name="dialog">DIALOG</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_mostrar_dialogo">Mostrar dialogo</string>
 </resources>
