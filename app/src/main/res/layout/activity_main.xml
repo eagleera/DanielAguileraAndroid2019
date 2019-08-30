@@ -16,33 +16,45 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:textStyle="bold" android:id="@+id/textView"
             android:textSize="18sp" app:layout_constraintHorizontal_bias="0.498"/>
+
     <Button
+            android:id="@+id/btnHelloWorld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:width="190dp"
+            android:backgroundTint="#00BCD4"
             android:text="@string/hello_world"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnHelloWorld" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintHorizontal_bias="0.498"
-            android:width="160dp" android:backgroundTint="#00BCD4"/>
-    <Button
-            android:text="@string/tempConversion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnTempConversion" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
-            android:width="160dp"
-            android:backgroundTint="#8BC34A" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/btnTimeFighter2"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
     <Button
-            android:text="@string/timefighter"
+            android:id="@+id/btnTempConversion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnTimeFighter2" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:width="190dp"
+            android:backgroundTint="#8BC34A"
+            android:text="@string/tempConversion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.498" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/btnHelloWorld" android:width="160dp"
-            android:backgroundTint="#FF9800"/>
+            app:layout_constraintTop_toBottomOf="@+id/btnTimeFighter" />
+
+    <Button
+            android:id="@+id/btnTimeFighter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:width="190dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/timefighter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnHelloWorld" />
     <TextView
             android:text="@string/name_repo"
             android:layout_width="wrap_content"
@@ -58,11 +70,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:width="160sp"
+            android:width="190sp"
             android:backgroundTint="#F44336"
             android:text="@string/dialog"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnTempConversion" />
+
+    <Button
+            android:id="@+id/btnDialogMgmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:width="190sp"
+            android:backgroundTint="#FFEB3B"
+            android:text="@string/dialog_management"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnDialog" />
 
 </android.support.constraint.ConstraintLayout>

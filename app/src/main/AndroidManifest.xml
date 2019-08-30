@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.danielaguileraandroid2019">
+        package="com.example.danielaguileraandroid2019">
 
     <application
             android:allowBackup="true"
@@ -9,19 +9,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Dialog">
-        </activity>
-        <activity android:name=".TemperatureConversion">
-        </activity>
-        <activity android:name=".TimeFighter">
-        </activity>
-        <activity android:name=".HelloWorld">
-        </activity>
+        <activity android:name=".DialogManagement"></activity>
+        <activity android:name=".Dialog"></activity>
+        <activity android:name=".TemperatureConversion"></activity>
+        <activity android:name=".TimeFighter"></activity>
+        <activity android:name=".HelloWorld"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

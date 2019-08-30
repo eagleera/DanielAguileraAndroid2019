@@ -20,4 +20,10 @@
     <string name="btn_login">Login</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_mostrar_dialogo">Mostrar dialogo</string>
+    <string name="dialog_management">Dialog Management</string>
+    <string name="show_img">Show Image</string>
+    <string name="close_app">Close Application</string>
+    <string name="close_dialog">Close</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="you_sure_close_app">Are you sure you want to close the application?</string>
 </resources>

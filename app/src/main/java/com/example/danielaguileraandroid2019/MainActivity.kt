@@ -16,12 +16,21 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btnTimeFighter.setOnClickListener {
+            val intent = Intent(this, TimeFighter::class.java)
+            startActivity(intent)
+        }
+
         btnTempConversion.setOnClickListener {
             val intent = Intent(this, TemperatureConversion::class.java)
             startActivity(intent)
         }
         btnDialog.setOnClickListener {
             val intent = Intent(this, Dialog::class.java)
+            startActivity(intent)
+        }
+        btnDialogMgmt.setOnClickListener {
+            val intent = Intent(this, DialogManagement::class.java)
             startActivity(intent)
         }
     }
