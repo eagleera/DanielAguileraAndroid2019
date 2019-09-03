@@ -26,4 +26,6 @@
     <string name="close_dialog">Close</string>
     <string name="cancel_dialog">Cancel</string>
     <string name="you_sure_close_app">Are you sure you want to close the application?</string>
+    <string name="playground">Playground</string>
+    <string name="show_toast">Show Toast</string>
 </resources>

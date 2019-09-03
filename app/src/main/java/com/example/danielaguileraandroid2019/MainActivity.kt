@@ -33,5 +33,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DialogManagement::class.java)
             startActivity(intent)
         }
+        btnPlayground.setOnClickListener {
+            val intent = Intent(this, Playground::class.java)
+            startActivity(intent)
+        }
     }
 }
