@@ -3,8 +3,10 @@ package com.example.danielaguileraandroid2019
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_playground.*
+import kotlin.math.log
 
 class Playground : AppCompatActivity() {
 
@@ -22,6 +24,17 @@ class Playground : AppCompatActivity() {
             Handler().postDelayed({
                 Toast.makeText(this, "${dayOfMonth}", Toast.LENGTH_SHORT).show()
             }, 4000)
+        }
+
+        btnLoop.setOnClickListener{
+            val rnds = (1..10).random()
+            var i = 0
+            Log.d("SUH", rnds.toString())
+            Toast.makeText(this, "${rnds}", Toast.LENGTH_SHORT).show()
+            while(i <= rnds){
+                Log.d("SUH", i.toString())
+                i++
+            }
         }
     }
 }

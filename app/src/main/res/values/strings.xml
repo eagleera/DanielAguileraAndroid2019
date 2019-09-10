@@ -28,4 +28,5 @@
     <string name="you_sure_close_app">Are you sure you want to close the application?</string>
     <string name="playground">Playground</string>
     <string name="show_toast">Show Toast</string>
+    <string name="do_loop">Do loop</string>
 </resources>

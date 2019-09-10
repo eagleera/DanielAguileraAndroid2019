@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_time_fighter.*
 
@@ -16,11 +18,15 @@ class TimeFighter : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
+        val shakeAnimation = AnimationUtils.loadAnimation(this, R.anim.shake)
         setContentView(R.layout.activity_time_fighter)
         txtScore.text = ""
         txtTimeLeft.text = ""
         initTimer()
         btnTapMe.setOnClickListener {
+            it.startAnimation(bounceAnimation)
+            txtScore.startAnimation(shakeAnimation)
             if(score === 0){
                 countDownTimer.start()
             }
