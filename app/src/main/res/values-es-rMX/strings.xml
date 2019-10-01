@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DanielAguileraAndroid2019</string>
+    <string name="title">Android 2019</string>
+    <string name="score">Tu puntaje: %s</string>
+    <string name="time_left">Tiempo restante: %s</string>
+    <string name="tap_me">PULSAME</string>
+    <string name="hello_world">Hola Mundo</string>
+    <string name="timefighter">TIMEFIGHTER</string>
+    <string name="name_repo">DanielAguileraAndroid2019 \n @eagleera</string>
+    <string name="end_game">Fin del juego %s</string>
+    <string name="tempConversion">Convertir temperatura</string>
+    <string name="convert_temp">Convertir</string>
+    <string name="celsius">Celsius</string>
+    <string name="celsius_placeholder">10</string>
+    <string name="celsius_lbl">Celsius</string>
+    <string name="convert_btn_celsius">Convertir a Farenheit</string>
+    <string name="farenheit_lbl">Farenheit</string>
+    <string name="conver_btn_farenheit">Convertir a Celsius</string>
+    <string name="dialog">DIALOGO</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_mostrar_dialogo">Mostrar dialogo</string>
+    <string name="dialog_management">manejador de dialogo</string>
+    <string name="show_img">Mostrar imagen</string>
+    <string name="close_app">Cerrar aplicación</string>
+    <string name="close_dialog">Cerrar</string>
+    <string name="cancel_dialog">Cancelar</string>
+    <string name="you_sure_close_app">Estas seguro que quieres cerrar la app?</string>
+    <string name="playground">Area de juego</string>
+    <string name="show_toast">Mostrar tostada</string>
+    <string name="do_loop">Hacer ciclo</string>
+    <string name="fill_all_fields">Porfavor llena todos los campos</string>
+    <string name="patient_good">El paciente se encuentra en el peso adecuado</string>
+    <string name="patient_bad">El paciente NO se encuentra en el peso adecuado</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="calculate_imc">Calcular IMC</string>
+    <string name="scan">Escanear</string>
+</resources>

@@ -19,7 +19,7 @@
     <string name="dialog">DIALOG</string>
     <string name="btn_login">Login</string>
     <string name="btn_cancel">Cancel</string>
-    <string name="btn_mostrar_dialogo">Mostrar dialogo</string>
+    <string name="btn_mostrar_dialogo">show dialog</string>
     <string name="dialog_management">Dialog Management</string>
     <string name="show_img">Show Image</string>
     <string name="close_app">Close Application</string>
@@ -29,4 +29,14 @@
     <string name="playground">Playground</string>
     <string name="show_toast">Show Toast</string>
     <string name="do_loop">Do loop</string>
+    <string name="imc">IMC</string>
+    <string name="fill_all_fields">Please fill all the fields first</string>
+    <string name="patient_good">Patient is in a good range of weight</string>
+    <string name="patient_bad">Patient is not in a good range of weight</string>
+    <string name="name">Name</string>
+    <string name="lastname">last name</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="calculate_imc">Calculate IMC</string>
+    <string name="scan">Scan</string>
 </resources>

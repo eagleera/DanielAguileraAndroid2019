@@ -37,5 +37,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Playground::class.java)
             startActivity(intent)
         }
+        btnImc.setOnClickListener{
+            val intent = Intent(this, Imc::class.java)
+            startActivity(intent)
+        }
     }
 }
