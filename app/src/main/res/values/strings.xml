@@ -29,7 +29,7 @@
     <string name="playground">Playground</string>
     <string name="show_toast">Show Toast</string>
     <string name="do_loop">Do loop</string>
-    <string name="imc">IMC</string>
+    <string name="imc" translatable="false">IMC</string>
     <string name="fill_all_fields">Please fill all the fields first</string>
     <string name="patient_good">Patient is in a good range of weight</string>
     <string name="patient_bad">Patient is not in a good range of weight</string>
@@ -39,4 +39,6 @@
     <string name="weight">Weight</string>
     <string name="calculate_imc">Calculate IMC</string>
     <string name="scan">Scan</string>
+    <string name="shake">Shake!!!</string>
+    <string name="shake_game">Shake Game~</string>
 </resources>

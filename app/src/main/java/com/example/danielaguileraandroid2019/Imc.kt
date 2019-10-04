@@ -3,12 +3,10 @@ package com.example.danielaguileraandroid2019;
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log
 import android.widget.Toast
 import com.google.zxing.integration.android.IntentIntegrator
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_imc.*
-import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONException
 import org.json.JSONObject
 
@@ -58,11 +56,10 @@ class Imc: AppCompatActivity() {
 
                     // Show values in UI.
                     txtName.setText(obj.getString("name"))
-                    txtLastName.setText(obj.getString("lastname"))
+                    txtLastName.setText(obj.getString("lastName"))
                     txtHeight.setText(obj.getString("height"))
                     txtWeight.setText(obj.getString("weight"))
-                    Log.d("url", obj.getString("url"))
-                    Picasso.get().load(obj.getString("url")).into(imgQr);
+                    Picasso.get().load(obj.getString("imgDir")).into(imgQr)
                 } catch (e: JSONException) {
                     e.printStackTrace()
 

@@ -115,4 +115,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnPlayground" />
 
+    <Button
+            android:id="@+id/btnShake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:width="190sp"
+            android:backgroundTint="#59C2AB"
+            android:text="@string/shake_game"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnImc" />
+
 </android.support.constraint.ConstraintLayout>

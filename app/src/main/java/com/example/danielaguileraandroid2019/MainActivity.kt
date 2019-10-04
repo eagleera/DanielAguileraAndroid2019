@@ -41,5 +41,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Imc::class.java)
             startActivity(intent)
         }
+        btnShake.setOnClickListener{
+            val intent = Intent(this, ShakeActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

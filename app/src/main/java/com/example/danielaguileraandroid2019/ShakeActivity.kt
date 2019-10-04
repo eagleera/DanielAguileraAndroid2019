@@ -7,24 +7,33 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import com.example.danielaguileraandroid2019.ShakeEventListener as ShakeEvtListener
+import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.activity_imc.*
+import kotlinx.android.synthetic.main.activity_shake.*
 
-class HelloWorld : AppCompatActivity() {
+class ShakeActivity : AppCompatActivity() {
 
     private var mSensorManager: SensorManager? = null
-    private var mSensorListener: ShakeEvtListener? = null
+    private var mSensorListener: ShakeEventListener? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hello_world)
+        setContentView(R.layout.activity_shake)
+
         mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager?
-        mSensorListener = ShakeEvtListener()
+        mSensorListener = ShakeEventListener()
 
         this.mSensorListener!!.setOnShakeListener {
-            Log.d("SUH", "SIMON MIJO2")
+            val rnd = (1..3).random()
+            Log.d("hola", rnd.toString());
+            when(rnd){
+                1 -> Picasso.get().load(R.drawable.rock).into(imgGame)
+                2 -> Picasso.get().load(R.drawable.scissors).into(imgGame)
+                3 -> Picasso.get().load(R.drawable.paper).into(imgGame)
+            }
             Toast.makeText(this, "Shake!!!!", Toast.LENGTH_LONG).show()
         }
-        Log.d("SUH", "SIMON MIJO")
     }
 
     override fun onResume(){
