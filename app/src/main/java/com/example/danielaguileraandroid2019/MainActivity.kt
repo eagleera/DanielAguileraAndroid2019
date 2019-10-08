@@ -45,5 +45,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ShakeActivity::class.java)
             startActivity(intent)
         }
+        btnSharedPref.setOnClickListener{
+            val intent = Intent(this, SharedPreferences::class.java)
+            startActivity(intent)
+        }
     }
 }
