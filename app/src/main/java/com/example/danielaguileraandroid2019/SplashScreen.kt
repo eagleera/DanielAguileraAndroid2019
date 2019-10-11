@@ -26,7 +26,7 @@ class SplashScreen : Activity() {
             {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                val i = Intent(this@SplashScreen, MainActivity::class.java)
+                val i = Intent(this@SplashScreen, Login::class.java)
                 startActivity(i)
 
                 // close this activity
