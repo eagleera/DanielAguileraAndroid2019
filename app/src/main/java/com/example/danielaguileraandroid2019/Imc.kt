@@ -2,7 +2,7 @@ package com.example.danielaguileraandroid2019;
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Toast
 import com.google.zxing.integration.android.IntentIntegrator
 import com.squareup.picasso.Picasso

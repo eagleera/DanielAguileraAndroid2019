@@ -4,14 +4,15 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.biometric.BiometricPrompt
-import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import kotlinx.android.synthetic.main.activity_login.*
 import java.util.concurrent.Executors
 
-class Login : Fragment() {
+class Login : FragmentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_login)
         val executor = Executors.newSingleThreadExecutor()
         val biometricPrompt = BiometricPrompt(this, executor, object : BiometricPrompt.AuthenticationCallback() {
             override fun onAuthenticationError(errorCode: Int, errString: CharSequence) {
@@ -24,7 +25,7 @@ class Login : Fragment() {
             override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
                 super.onAuthenticationSucceeded(result)
                 Log.d("Chris","Success")
-                val intent = Intent(context,MainActivity::class.java)
+                val intent = Intent(this@Login,MainActivity::class.java)
                 startActivity(intent)
             }
             override fun onAuthenticationFailed() {
@@ -39,7 +40,7 @@ class Login : Fragment() {
             .setNegativeButtonText("Negative Button")
             .build()
 
-        btnLogin.setOnClickListener {
+        btnLogin1.setOnClickListener {
             biometricPrompt.authenticate(promptInfo)
         }
     }

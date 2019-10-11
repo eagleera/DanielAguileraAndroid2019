@@ -2,7 +2,7 @@ package com.example.danielaguileraandroid2019
 
 import android.content.Intent
 import android.media.MediaPlayer
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log

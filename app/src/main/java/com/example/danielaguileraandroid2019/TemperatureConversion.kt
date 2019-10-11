@@ -1,8 +1,8 @@
 package com.example.danielaguileraandroid2019
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_temperature_conversion.*
 

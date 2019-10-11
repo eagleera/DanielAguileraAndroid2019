@@ -1,8 +1,8 @@
 package com.example.danielaguileraandroid2019
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_dialog_management.*
 import kotlinx.android.synthetic.main.dialog_mgmt_close.view.*
 import kotlin.system.exitProcess

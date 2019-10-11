@@ -1,8 +1,8 @@
 package com.example.danielaguileraandroid2019
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_dialog.*
 import kotlinx.android.synthetic.main.dialog_login.view.*
 
@@ -16,7 +16,7 @@ class Dialog : AppCompatActivity() {
             val DialogView = layoutInflater.inflate(R.layout.dialog_login, null)
             val mBuilder = AlertDialog.Builder(this)
                             .setView(DialogView).setTitle("Login dialog").show()
-            DialogView.btnLogin.setOnClickListener{
+            DialogView.btnLogin1.setOnClickListener{
                 val name = DialogView.txtName.text.toString()
                 val email = DialogView.txtEmail.text.toString()
                 val password = DialogView.txtPassword.text.toString()

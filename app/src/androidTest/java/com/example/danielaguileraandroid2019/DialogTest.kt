@@ -1,12 +1,12 @@
 package com.example.danielaguileraandroid2019
 
 
-import android.support.test.espresso.Espresso.onView
-import android.support.test.espresso.action.ViewActions.*
-import android.support.test.espresso.matcher.ViewMatchers.*
-import android.support.test.filters.LargeTest
-import android.support.test.rule.ActivityTestRule
-import android.support.test.runner.AndroidJUnit4
+import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.action.ViewActions.*
+import androidx.test.espresso.matcher.ViewMatchers.*
+import androidx.test.filters.LargeTest
+import androidx.test.rule.ActivityTestRule
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import android.view.View
 import android.view.ViewGroup
 import org.hamcrest.Description
@@ -110,7 +110,7 @@ class DialogTest {
 
         val appCompatButton3 = onView(
             allOf(
-                withId(R.id.btnLogin), withText("Login"),
+                withId(R.id.btnLogin1), withText("Login"),
                 childAtPosition(
                     childAtPosition(
                         withClassName(`is`("android.widget.LinearLayout")),
