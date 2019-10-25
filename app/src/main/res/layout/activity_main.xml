@@ -143,5 +143,17 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnSharedPref" />
+
+        <Button
+                android:id="@+id/btnHttpGet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:width="190sp"
+                android:background="#E6AEC0"
+                android:text="@string/http_get"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSharedPref" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

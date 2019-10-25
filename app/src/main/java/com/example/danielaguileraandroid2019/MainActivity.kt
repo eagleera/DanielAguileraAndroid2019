@@ -37,16 +37,20 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Playground::class.java)
             startActivity(intent)
         }
-        btnImc.setOnClickListener{
+        btnImc.setOnClickListener {
             val intent = Intent(this, Imc::class.java)
             startActivity(intent)
         }
-        btnShake.setOnClickListener{
+        btnShake.setOnClickListener {
             val intent = Intent(this, ShakeActivity::class.java)
             startActivity(intent)
         }
-        btnSharedPref.setOnClickListener{
+        btnSharedPref.setOnClickListener {
             val intent = Intent(this, SharedPreferences::class.java)
+            startActivity(intent)
+        }
+        btnHttpGet.setOnClickListener {
+            val intent = Intent(this, HttpGet::class.java)
             startActivity(intent)
         }
     }
