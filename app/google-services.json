@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234730509736",
+    "firebase_url": "https://juego-291d5.firebaseio.com",
+    "project_id": "juego-291d5",
+    "storage_bucket": "juego-291d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234730509736:android:1b3a1f355a2a801ca9f99d",
+        "android_client_info": {
+          "package_name": "com.example.danielaguileraandroid2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234730509736-q359rtbesrg53nau330fn6jim590pb33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.danielaguileraandroid2019",
+            "certificate_hash": "576f98b358d6826d1a94db15b51a0fa1562878f0"
+          }
+        },
+        {
+          "client_id": "234730509736-ji1uu43rkvmah4e47eous9prahcbfufd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCzCzIhi54FIy4T3-XQgSY4nshADEzR00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234730509736-ji1uu43rkvmah4e47eous9prahcbfufd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
